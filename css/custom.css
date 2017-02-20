@@ -1,0 +1,47 @@
+.container {
+  max-width: 960px;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container figure {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 750px) {
+  .portrait {
+    width: 65%;
+  }
+}
+
+.container p {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0em;
+  line-height: 1.6em;
+  text-transform: none;
+  color: #262626;
+}
+
+.title {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.post-title {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.title a {
+  text-decoration: none;
+  color: #000000;
+}
