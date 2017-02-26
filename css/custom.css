@@ -33,7 +33,11 @@
 
 .title {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
+}
+
+.title .subtitle {
+  font-size: 14px;
 }
 
 .post-title {
@@ -44,4 +48,68 @@
 .title a {
   text-decoration: none;
   color: #000000;
+}
+
+.image-with-caption {
+  position: relative;
+  padding-top: 0.25rem;
+}
+
+.image-with-caption img {
+  width: 100%;
+}
+
+.caption {
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.image-with-caption a {
+  text-decoration: none;
+}
+
+.caption-title h1 {
+  font-weight: 500;
+}
+
+@media (min-width: 1000px) {
+  .caption-title h1 {
+    font-size: 6.5rem;
+  }
+}
+
+.caption-date {
+  padding-bottom: 5%;
+}
+
+.spacer {
+  padding-top: 2rem;
+}
+
+.cover-image img {
+  width: 100%;
+}
+
+h5 {
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0;
+}
+
+body {
+  padding-bottom: 20px;
 }
